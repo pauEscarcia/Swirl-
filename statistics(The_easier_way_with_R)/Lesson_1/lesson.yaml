@@ -1,7 +1,17 @@
 - Class: meta
   Course: statistics(The easier way with R)
-  Lesson: Lesson 1
+  Lesson: Basic Concepts 
   Author: Pau Escarcia 
   Type: Standard
   Organization: Big Data Zacatecas
   Version: 2.3.1
+  
+- Class: text
+  Output: In this lesson, we will explore some Basic Concepts Categorical and Quantitative Data, Formatting your Data for R, measures of Central Tendency and Variability and Probability Distributions and Normal Model.
+
+- Class: text
+  Output: If at any point you'd like more information on a particular topic related
+    to R, you can type help.start() at the prompt, which will open a menu of resources
+    (either within RStudio or your default web browser, depending on your setup).
+    Alternatively, a simple web search often yields the answer you're looking for.
+    
