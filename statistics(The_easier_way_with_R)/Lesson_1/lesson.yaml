@@ -1,19 +1,21 @@
 - Class: meta
   Course: Estadisticas (La manera mas facil con R)
-  Lesson: Conceptos B??sicos 
+  Lesson: Conceptos Basicos 
   Author: Pau Escarcia 
   Type: Standard
   Organization: Big Data Zacatecas
   Version: 2.3.1
   
 - Class: text
+  Output: Hola! En esta leccion, vamos a explorar algunos conceptos basicos como datos categoricos y cuantitativos,dar formato a los datos en R, medidas de tendencia central y variabilidad, Distribuciones de probabilidad y el modelo normal.
 
-  Output: En esta leccion, vamos a explorar algunos conceptos basicos como Datos categoricos y cuantitativos,dar formato a los datos en R, medidas de tendencia central y variabilidad, Distribuciones de probabilidad y el modelo normal.
 - Class: text
-
-  Output: If at any point you'd like more information on a particular topic related
-    to R, you can type help.start() at the prompt, which will open a menu of resources
-    (either within RStudio or your default web browser, depending on your setup).
-    Alternatively, a simple web search often yields the answer you're looking for.
+  Output: Si en algun momento deseas obtener mas informacion sobre un tema en especifico tu puedes escribir help.start() en la consola y se abrira un menu de recursos (ya sea dentro de RStudio o el navegador web por defecto, dependiendo de tu configuracion). Como alternativa, una simple busqueda en internet a menudo da la respuesta que esta buscando.
+  
+- Class: cmd_question 
+  Output: Ahora vamos a crear un Hola mundo paso a paso.Para comenzar almacenaremos  la palabra Hello en la variable x asi que escribe lo siguiente x <-("Hello") y presiona enter.
+  CorrectAnswer: x <-("Hello")
+  AnwerTests: omnitest(correctExpr='x <-(Hello)') #Error esta linea 
+  #Hint: Escribe x<-("Hello") y presiona enter.
     
     
